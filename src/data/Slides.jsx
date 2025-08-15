@@ -1,4 +1,4 @@
-// src/data/heroData.js
+
 import slider1 from "../assets/slider.avif";
 import slider2 from "../assets/slider2.avif";
 import slider3 from "../assets/slider3.avif";
