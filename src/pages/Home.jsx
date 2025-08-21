@@ -6,6 +6,7 @@ import CoCurricular from '../components/CoCurricular'
 import NewsEvents from '../components/NewsEvent'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
+import Location from '../components/Location'
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
       <CoCurricular />
       <NewsEvents />
       <ContactUs />
+      <Location />
       <Footer />
     </div>
   )

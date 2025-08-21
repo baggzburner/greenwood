@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,8 +6,9 @@ function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-transparent text-white">
       <div className="container mx-auto flex justify-between items-center px-4 py-3">
+        
         {/* Logo + School Name */}
-        <Link to="/" className="flex items-center space-x-3">
+        <a href="#hero" className="flex items-center space-x-3" onClick={() => setIsOpen(false)}>
           <img
             src="/log.png"
             alt="School Logo"
@@ -17,7 +17,7 @@ function Navbar() {
           <span className="text-white font-bold text-lg">
             Greenwood Secondary School
           </span>
-        </Link>
+        </a>
 
         {/* Hamburger Icon */}
         <div className="md:hidden">
@@ -36,25 +36,25 @@ function Navbar() {
           }`}
         >
           <li>
-            <Link to="/" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>Home</Link>
+            <a href="#hero" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>Home</a>
           </li>
           <li>
-            <Link to="/about" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>About Us</Link>
+            <a href="#about" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>About Us</a>
           </li>
           <li>
-            <Link to="/academics" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>Academics</Link>
+            <a href="#academics" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>Academics</a>
           </li>
           <li>
-            <Link to="/admissions" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>Admissions</Link>
+            <a href="#admissions" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>Admissions</a>
           </li>
           <li>
-            <Link to="/co-curricular" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>Co-curricular</Link>
+            <a href="#co-curricular" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>Co-Curricular</a>
           </li>
           <li>
-            <Link to="/news" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>News & Events</Link>
+            <a href="#news-events" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>News & Events</a>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>Contact Us</Link>
+            <a href="#contact" className="hover:text-yellow-300" onClick={() => setIsOpen(false)}>Contact Us</a>
           </li>
         </ul>
       </div>

@@ -7,12 +7,14 @@ function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         
         {/* Logo / About */}
+        
         <div>
+            <a href="#hero">
            <img 
             src="/log1.png" 
             alt="Greenwood Secondary Logo" 
             className="w-32 mb-4"
-          />
+          /> </a>
           <p className="text-gray-400 text-sm">
             Nurturing excellence in academics, sports, and co-curricular
             activities to produce responsible global citizens.
@@ -23,7 +25,7 @@ function Footer() {
         <div>
           <h3 className="text-xl font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="#home" className="hover:text-green-400">Home</a></li>
+            <li><a href="#hero" className="hover:text-green-400">Home</a></li>
             <li><a href="#about" className="hover:text-green-400">About Us</a></li>
             <li><a href="#academics" className="hover:text-green-400">Academics</a></li>
             <li><a href="#admissions" className="hover:text-green-400">Admissions</a></li>

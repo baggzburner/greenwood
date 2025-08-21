@@ -17,7 +17,7 @@ function Hero() {
   }, [slides.length]);
 
   return (
-    <section className="relative w-full h-screen overflow-hidden text-white">
+    <section className="relative w-full h-screen overflow-hidden text-white" id="hero">
       {slides.map((slide, index) => (
         <div
           key={index}

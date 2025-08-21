@@ -3,7 +3,7 @@ import academicsData from "../data/academicsData"
 
 function Academics() {
   return (
-    <section className='text-center py-10 bg-gray-100'>
+    <section className='text-center py-10 bg-gray-100' id="academics">
       {/* Title */}
       <h1 className='text-3xl font-bold mb-8 text-gray-500'>ACADEMICS</h1>
 

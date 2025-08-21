@@ -2,7 +2,7 @@ import React from 'react'
 
 function Admissions() {
   return (
-    <section className='py-10 px-6 bg-gray-900 text-center'>
+    <section className='py-10 px-6 bg-gray-900 text-center' id="admissions">
       {/* Title */}
       <h1 className='text-4xl font-extrabold mb-6 text-gray-200'>Admissions</h1>
 

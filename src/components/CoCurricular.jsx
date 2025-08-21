@@ -35,9 +35,9 @@ function CoCurricular() {
           {activities.map((activity, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl transition"
+              className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl transition text-center"
             >
-              {activity.icon}
+              <div className="flex justify-center">{activity.icon}</div>
               <h3 className="text-xl font-semibold text-gray-700 mb-2">
                 {activity.title}
               </h3>
