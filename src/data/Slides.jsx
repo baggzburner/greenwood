@@ -1,4 +1,5 @@
 
+import { href } from "react-router-dom";
 import slider1 from "../assets/slider.avif";
 import slider2 from "../assets/slider2.avif";
 import slider3 from "../assets/slider3.avif";
@@ -11,6 +12,8 @@ export const slides = [
       "Empowering students with knowledge, skills, and values for a brighter future.",
     btn1: "Learn More",
     btn2: "Contact Us",
+    href1: "#about",
+    href2: "#contact",
   },
   {
     image: slider2,
@@ -19,6 +22,8 @@ export const slides = [
       "Our curriculum fosters creativity, critical thinking, and academic excellence.",
     btn1: "Academics",
     btn2: "Admissions",
+    href1: "#academics",
+    href2: "#admissions",
   },
   {
     image: slider3,
@@ -27,6 +32,8 @@ export const slides = [
       "Join our vibrant community of sports, clubs, and cultural activities.",
     btn1: "Co-curricular",
     btn2: "Events",
+    href1: "#co-curricular",
+    href2: "#news-events",
   },
 ];
 

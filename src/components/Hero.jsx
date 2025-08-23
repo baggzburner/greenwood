@@ -42,10 +42,10 @@ function Hero() {
             </h1>
             <p className="max-w-xl mb-6 text-lg">{slide.description}</p>
             <div className="space-x-4">
-              <button className="bg-yellow-500 hover:bg-yellow-600 px-6 py-2 rounded-lg font-semibold transition">
+              <button onClick={() => (window.location.href = slide.href1)} className="bg-yellow-500 hover:bg-yellow-600 hover:cursor-pointer px-6 py-2 rounded-lg font-semibold transition">
                 {slide.btn1}
               </button>
-              <button className="bg-white text-black hover:bg-gray-200 px-6 py-2 rounded-lg font-semibold transition">
+              <button onClick={() => (window.location.href = slide.href2)} className="bg-white text-black hover:bg-gray-200 hover:cursor-pointer px-6 py-2 rounded-lg font-semibold transition">
                 {slide.btn2}
               </button>
             </div>
