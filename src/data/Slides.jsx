@@ -17,7 +17,7 @@ export const slides = [
     title: "Excellence in Academics",
     description:
       "Our curriculum fosters creativity, critical thinking, and academic excellence.",
-    btn1: "View Academics",
+    btn1: "Academics",
     btn2: "Admissions",
   },
   {
